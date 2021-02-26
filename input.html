@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Robert's Input Note Book</title>
+</head>
+
+<body>
+
+  <h2>Form for free consultation.</h2>
+  <p>If you wish to have a free consultation inregards to your ideas or projects. Please, fillout the information required.</p>
+  <form class="" action="index.html" method="post">
+    <label for="Your Name">Your Name:</label>
+    <input type="text" name="" value=""><br>
+    <label for="Email">Enter your email:</label>
+    <input type="email" id="email" name="email" value=""><br>
+  </form>
+  <form class="" action="index.html" method="post">
+    <div class="nativeDatePicker">
+      <label for="bday">Your Date of Birth:</label>
+      <input type="date" id="bday" name="bday">
+      <span>
+      </span>
+    </div>
+  </form>
+  <form class="" action="index.html" method="post">
+    <p>Please select your perferred contact method:</p>
+    <div>
+      <form class="" action="index.html" method="post">
+        <input type="radio" id="Phone" name="Contact" value="Phone">
+        <label for="Phone">Phone</label><br>
+        <input type="radio" id="Email" name="Contact" value="Email">
+        <label for="Email">Email</label><br>
+        <input type="radio" id="Postal Mail" name="contact" value="Postal Mail">
+        <label for="Postal Mail">Postal Mail</label><br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+
+        <h3>File upload</h3>
+
+        <p>if you have and would like to send images, Illustrations, or references for consideration with consultation planning.<wbr>
+        </p>
+        <form action="/action_page.php">
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile"><br><br>
+          <label for="size">File Size:</label>
+          <input type="range" id="File size" name="file size" min="0" max="2mb"><br><br>
+          <input type="submit" name="" value="Submit"><br><br>
+        </form>
+      </form>
+    </div>
+  </form>
+</body>
+
+</html>
